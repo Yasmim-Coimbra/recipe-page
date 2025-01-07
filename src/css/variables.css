@@ -1,0 +1,10 @@
+:root {
+    --body-bg: hsl(30, 54%, 90%);
+    --card-bg: hsl(0, 0%, 100%);
+    --titulo-comeco: hsl(24, 5%, 18%);
+    --hr: hsl(30, 18%, 87%);
+    --preparation-bg: hsl(330, 100%, 98%);
+    --preparation: hsl(332, 51%, 32%);
+    --textos: hsl(30, 10%, 34%);
+    --uls-ols: hsl(14, 45%, 36%);
+}

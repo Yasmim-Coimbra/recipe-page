@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+
+    .ingredients {
+        margin-block: 30px;
+    }
+
+    .instructions {
+        padding-bottom: 0;
+    }
+
+}

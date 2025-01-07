@@ -1,0 +1,146 @@
+body {
+    background-color: var(--body-bg);
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.recipe-card {
+    background-color: var(--card-bg);
+    max-width: 650px;
+    border-radius: 20px;
+    margin: 30px;
+    color: var(--textos);
+}
+
+.recipe-card .recipe-overall img.recipe-result {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.recipe-overall {
+    padding: 30px;
+}
+
+h2,
+.ingredients-list li::marker,
+.instructions-steps li::marker,
+.nutrition-table .values {
+    color: var(--uls-ols);
+    font-weight: 600;
+}
+
+h1.recipe-name,
+h2.ingredients-title,
+h2.instructions-title,
+h2.nutrition-title {
+    font-family: "Young Serif", serif;
+}
+
+h1.recipe-name {
+    color: var(--titulo-comeco);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    padding: 25px 0 20px;
+}
+
+p.recipe-summary {
+    font-size: 14px;
+}
+
+.preparation {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--preparation-bg);
+}
+
+.preparation h3.preparation-title, 
+.preparation ul.preparation-time li::marker {
+    color: var(--preparation);
+}
+
+.preparation ul.preparation-time {
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredients,
+.instructions,
+.nutrition {
+    margin-inline: 30px;
+}
+
+.instructions {
+    border-block: 1px solid var(--hr);
+    padding-block: 20px;
+}
+
+.ingredients-list li {
+    padding-left: 8px;
+}
+
+.instructions-steps li {
+    padding-left: 15px;
+}
+
+.ingredients {
+    margin-block: 40px;
+}
+
+.ingredients ul.ingredients-list {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.ingredients-list li::marker,
+.instructions-steps li::marker {
+    font-size: 15px;
+}
+
+.instructions ol.instructions-steps {
+    padding-block: 20px;
+    margin-left: 20px;
+}
+
+.nutrition {
+    margin-block: 20px;
+}
+
+.instructions-steps li:not(:last-child) {
+    margin-bottom: 14px;
+    padding-right: 20px;
+}
+
+p.nutrition-intro {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.nutrition-table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+.nutrition-table tr:not(:last-child) {
+    border-bottom: 1px solid var(--hr);
+}
+
+.nutrition-table td {
+    padding: 10px;
+}
